@@ -71,4 +71,6 @@ class MessagesController < ApplicationController
     def message_params
       params.require(:message).permit(:title, :message, :name)
     end
+    
+
 end
